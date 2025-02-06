@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="soulbalance.css" />
+  <title>Yoga & Wellness | SoulBalance</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__container">
+      <div class="nav__logo">
+        <a href="#">SoulBalance</a>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sessions</a></li>
+        <li><a href="#">Benefits</a></li>
+        <li><a href="#">Inner Harmony</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="sign__in" id="signin-btn">Sign Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header__container">
+    <div class="header__content">
+      <h1>LET'S GROW!<br />EXPLORE THE <span>JOURNEY</span> OF <SPAN>RESILIENCE!</SPAN></h1>
+      <p>"Like a tree, resilience is built from deep roots. Begin your journey of self-growth and strength today."</p>
+      
+      <!-- Form for Selecting a Session -->
+      <form>
+        <div class="input__row">
+          <div class="input__group">
+            <h5>Select Session</h5>
+            <div>
+              <span><i class="ri-spa-line"></i></span>
+              <select id="session">
+                <option value="morning-yoga">Morning Yoga</option>
+                <option value="meditation">Guided Meditation</option>
+                <option value="breathwork">Breathwork & Relaxation</option>
+                <option value="mindfulness">Mindfulness Training</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button id="search-btn">Search</button>
+      
+      </form>
+    </div>
+  </header>
+
+    <!-- Signup Section -->
+    <section id="signup">
+      <h2>Join the Journey</h2>
+      <p>Sign up to unlock personal growth challenges, mindfulness exercises, and community support.</p>
+      <form id="signup-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="password" placeholder="Create Password" required>
+          <button type="submit">Let’s Grow Together 🌳</button>
+      </form>
+  </section>
+  
+
+    <!-- Growth Stages -->
+    <section class="growth" id="seed">
+      <div class="content-container">
+          <img src="images/yoga.png" alt="Morning Yoga Image" class="growth-img">
+          <div class="text">
+              <h2 class="title">Morning Yoga</h2>
+              <ul>
+                <li><strong>Boosts Energy Levels:</strong> Wake up your body and mind with gentle stretches and controlled breathing.</li>
+                <li><strong>Enhances Flexibility:</strong> Improve posture and reduce muscle stiffness with mindful movements.</li>
+                <li><strong>Reduces Stress & Anxiety:</strong> Morning yoga helps calm the nervous system and promotes mindfulness.</li>
+                <li><strong>Improves Focus & Productivity:</strong> Start your day with clarity, boosting concentration for daily tasks.</li>
+                
+            </ul>
+          </div>
+      </div>
+      <button>Yoga 🧘‍♀️</button>
+  </section>
+  
+
+  <section class="growth" id="sprout">
+    <div class="content-container">
+        <div class="text">
+            <h2 class="title">Guided Meditation</h2>
+            <ul>
+                <li><strong>Reduces Stress & Anxiety:</strong> Helps calm the mind, reducing negative thoughts and emotional turbulence.</li>
+                <li><strong>Enhances Focus & Clarity:</strong> Improves concentration and mental sharpness through mindful breathing.</li>
+                <li><strong>Promotes Emotional Well-being:</strong> Encourages self-awareness, inner peace, and emotional balance.</li>
+                <li><strong>Improves Sleep Quality:</strong> Soothes the nervous system, leading to better relaxation and restful sleep.</li>
+            </ul>
+        </div>
+        <img src="images/meditation.png" alt="Guided Meditation Image" class="growth-img-med">
+    </div>
+    <button>Meditate 🕉️</button>
+</section>
+
+
+<section class="growth" id="tree">
+  <div class="content-container">
+      <img src="images/breathing.png" alt="Breathwork Image" class="growth-img-breath">
+      <div class="text">
+          <h2 class="title">Breathwork & Relaxation</h2>
+          <ul>
+              <li><strong>Increases Oxygen Supply:</strong> Improves blood circulation and brain function.</li>
+              <li><strong>Reduces Anxiety & Stress:</strong> Deep breathing activates relaxation responses.</li>
+              <li><strong>Boosts Energy Levels:</strong> Helps in revitalizing the body and mind.</li>
+              <li><strong>Enhances Emotional Balance:</strong> Regulates emotions through controlled breath patterns.</li>
+          </ul>
+      </div>
+  </div>
+  <button>Take a Deep Breath🌿</button>
+</section>
+
+
+<section class="growth" id="flourish">
+  <div class="content-container" style="flex-direction: row-reverse;">
+      
+      <div class="text">
+          <h2 class="title">Mindfulness Training</h2>
+          <ul>
+              <li><strong>Encourages Present Moment Awareness:</strong> Helps you stay focused and engaged.</li>
+              <li><strong>Reduces Negative Thinking:</strong> Shifts focus from stress to gratitude.</li>
+              <li><strong>Improves Decision Making:</strong> Enhances clarity and rational thinking.</li>
+              <li><strong>Strengthens Mental Resilience:</strong> Builds the ability to adapt and overcome challenges.</li>
+          </ul>
+      </div>
+      <img src="images/mindfulness.png" alt="Mindfulness Training Image" class="growth-img-mind">
+  </div>
+  <button onclick="scrollToSection('footer')">Continue Growing 🍃</button>
+</section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+      Copyright © 2025 DHARAVATH RENU. All rights reserved.
+    </footer>
+
+    <script src="soulbalance.js"></script>
+</body>
+</html>
